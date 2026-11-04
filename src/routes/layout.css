@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+	min-height: 100vh;
+	margin: 0;
+}
+
+/*Sitewide styles*/
+h1{
+    @apply text-4xl leading-none font-extrabold tracking-tight
+}
+h2{
+    @apply mb-4 text-3xl font-bold tracking-tight
+}
+h3{
+    @apply text-2xl font-semibold tracking-tight mb-2
+}
+
+.block-link{
+    @apply w-fit bg-blue-800 px-3 py-2 text-white
+}
+
+/*What We Do homepage styles*/
+#what-we-do p{
+    @apply opacity-80
+}
+
+#how-it-works p{
+    @apply opacity-80
+}
